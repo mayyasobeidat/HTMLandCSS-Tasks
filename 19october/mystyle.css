@@ -1,0 +1,24 @@
+h2{
+    color: #3067aa;
+    background-color:#bcd4ec
+    ;
+}
+
+.design {
+    color: #0011ff;
+
+}
+table{
+    border-collapse: collapse;
+   }
+
+   .HCI {font-family: fantasy;
+   }
+   .gray{
+    background-color: rgb(232, 229, 229);
+   }
+   .inputt {
+    padding: 5px 40px;
+    font-family: monospace;
+
+  }
