@@ -1,0 +1,66 @@
+
+            .numbers{
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25%;
+                grid-template-rows: auto auto auto;
+                color: white;
+                border: 10px solid peru;
+                text-align: center;
+                font-size: 100px;
+                /* height: 100vh; */
+                
+
+            }
+  
+            .num1{
+                background-color: rgb(63, 135, 63);
+            }
+            .num2{
+                background-color: rgb(25, 97, 161);
+            }
+            .num3{
+                background-color: rgb(149, 65, 149);
+            }
+            .num4{
+                background-color: rgb(51, 48, 63);
+            }
+            .num5{
+                background-color: yellow;
+            }
+            .num6{
+                background-color: orange;
+            }
+            .num7{
+                background-color: rgb(255, 68, 0);
+            }
+            .num8{
+                background-color: rgb(195, 195, 195);
+            }
+            .num9{
+                background-color: rgb(69, 159, 69);
+            }
+            .num10{
+                background-color: green;
+            }
+          
+            @media only screen and (min-device-width: 0px) and (max-device-width:480px) {
+          .numbers{
+            grid-template-columns: auto   ;
+            
+                
+              
+
+    }
+    }
+
+    @media only screen and (min-device-width:481px) and (max-device-width:768px) {
+
+
+        .numbers{
+
+            grid-template-columns: auto auto  ;
+                
+            
+        
+        }  
+        }

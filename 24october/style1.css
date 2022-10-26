@@ -1,0 +1,31 @@
+
+        .allbox{
+            display: flex;
+            border: 10px solid chocolate;
+            height: 0px auto;
+        }
+        .box{
+            width: 150px;
+            height: 500px;
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            
+        }
+        @media only screen and (min-device-width: 0px) and (max-device-width:480px){
+            .allbox{
+                flex-wrap: wrap;
+            }
+            
+            .box{width: 100%;}
+        }
+        
+        
+        @media only screen and (min-device-width:481px) and (max-device-width:768px){
+            
+            .allbox{ 
+                flex-wrap: wrap;}
+                .box {
+                    width: 50%;
+                }
+            }  
